@@ -92,25 +92,62 @@ During my time as a CS undergrad at CMU, I have taken a wide range of courses. I
 
 ## Fall 2022 
 
-* ★ 11-485: Introduction to Deep Learning 
+* ★ 11-485: Introduction to Deep Learning (Remote)
+  * This course is no joke when it comes to the amount of content you need to parse and apply.  
+  * The course starts with the very basics of neural networks and builds up to transformers, GANs, and Hopfield networks.  
+  * When I took the course, GPTs weren’t the craze yet, so I imagine a lot has changed since then, especially in the assignments.  
+  * The assignments were divided into two parts: one where you implement the math behind neural networks and another where you use PyTorch to train networks for real tasks.  
+  * Training could sometimes be annoying due to the lack of GPU resources (you’re given a limited amount of AWS compute).  
+  * Despite several warnings to avoid this course due to the workload, I’m glad I took it.
 
 * ★ 15-348: Embedded Systems
+  * One of the most hands-on and fun courses I took at CMU, and arguably the closest thing to EE I did there.  
+  * The content itself is very straightforward if you have a computer systems background (15-213 or equivalent).  
+  * I had a lot of fun working on the final project, where our team made a "smartwatch" that keeps time and measures your heartbeat.  
+  * The only annoying bit was having to memorize the particulars of the TI microcontroller for the exam, but we were allowed a cheat sheet for those details.  
+
 
 * 15-451: Algorithm Design and Analysis
+  * Sadly, I believe this is the most redundant core CS course at CMU and was not as exciting as I anticipated.  
+  * While it was nice to have Christos again as an instructor, much of the content wasn’t new — e.g., P vs NP from GTI, graph algorithms from 15-210.  
+  * Some topics were novel, such as computational geometry and network flows, but they weren’t the core focus, and we never went beyond complexity analysis.  
+  * Ideally, this course should build on 15-210 and introduce more advanced algorithms.  
 
 * 85-370: Perception
+  * I took this course to fulfill the psychology/behavior elective requirement.  
+  * The course covers the biology of perception in the human brain, which was a great insight given that I was doing DL that semester.  
+  * The workload was very light, though I hated doing the pre-class questions.  
+  * I would recommend this course over other psychology courses for people who prefer science-like content over literature-like content.  
+
 
 ## Spring 2022
 
 * ★★ 15-251: Great Theoretical Ideas in Computer Science
-  * GTI is by far one of the most well-structured and well-taught courses at CMU.
-  * The first half of the semester is admittedly a review from other courses, but eventually you get to the bulk of thought-provoking topics in CS.
-  * Many great ideas (pun intended), including but not limited to: Finite Automata, Turing Machines, Reductions and P vs NP.
+  * GTI is by far one of the most well-structured and well-taught courses at CMU.  
+  * The first half of the semester is admittedly a review from other courses, but eventually, you get to the bulk of thought-provoking topics in CS.  
+  * Many great ideas (pun intended), including but not limited to: finite automata, Turing machines, reductions, and P vs NP.  
+
+
 * ★ 15-210: Parallel and Sequental Data Structures and Algorithms
+  * While this course gets a lot of hate, I seem to be in the minority who believe it’s one of the best core courses.  
+  * The course covers designing algorithms to solve computational problems, both in a sequential mode of thinking and in a parallel sense.  
+  * There is a great diversity of content in this course—it covers sequence computations, trees and heaps, graph problems, dynamic programming, etc.  
+  * The only caveat, in my opinion, is having to use SML for the programming assignments. While it simplifies the process, it feels slightly out of line with what real programs in the industry use.  
+
 
 * 16-311: Introduction to Robotics
+  * This course was taught by my now-supervisor, Prof. Di Caro.  
+  * The course content and lectures were very rich and introduced me to many common problems in the field that later became relevant to my work.  
+  * Sadly, due to the time crunch of juggling this course with two other 12-unit courses, I couldn't spend enough time truly understanding the content.  
+  * Also, programming with robots is a bit finicky, so it was a shift in style compared to the deterministic, autograded programming I was used to up until that point.  
+
 
 * 36-218: Probability Theory for Computer Science 
+  * I took this course to fulfill the math requirement.  
+  * A lot of the content overlapped with the three other courses I was taking at the time, so I didn’t take it very seriously.  
+  * Some of the later content was novel, but I had no time to invest in it beyond preparing for midterms and exams.  
+  * I would take the SCS version instead if I had a deeper interest in probabilistic computing.  
+
 
 ## Fall 2021 
 
@@ -151,4 +188,5 @@ During my time as a CS undergrad at CMU, I have taken a wide range of courses. I
 * 76-100: Reading and Writing in an Academic Context
 
 * 99-101: Computing @ Carnegie Mellon 
-
+  * They make you do this course to know how to use the recourses at CMU.
+  * Nothing to add beyond that.
