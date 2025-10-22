@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Computer Vision | Robotics #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Carnegie Mellon University Qatar</p>
+    <p>Luqta Steet</p>
+    <p>Doha، Qatar</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+On a mission to make robots percieve beyond what they see.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a **Research Associate** at Carnegie Mellon University Qatar on a QRDI funded project to develop a mobile robot solution to enable autonomous greenhouse monitoring. I work across numerous domains, including [photorealistic rendering, 3D deep learning, and robotic simulation](/publications). I have the great pleasure of working with Dr. [Gianni Di Caro](http://www.giannidicaro.com/), who also was my thesis advisor during my undergrad at CMU.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In addition to my research, I have a strong interest in computer systems design and implementation. I have previously  co-designed and implemented a UNIX-like kernel that supports preemptive scheduling and provides device drivers for console, keyboard, and timer hardware. 
+
+Beyond Computers, I am passionate about Arabic calligraphy & Poetry. I am also an avid listener of [maqāmāt music](https://www.youtube.com/watch?v=UmZ3P0A6yPA)

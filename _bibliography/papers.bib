@@ -3,113 +3,68 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{tabaa2025greenhousesplatdatasetphotorealisticgreenhouse,
+  abbr={ArXiv preprint},
+  title={GreenhouseSplat: A Dataset of Photorealistic Greenhouse Simulations for Mobile Robotics}, 
+  author={Diram Tabaa and Gianni Di Caro},
+  journal={Submitted},
+  month={Oct},
+  year={2025},
+  eprint={2510.01848},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  arxiv={https://arxiv.org/abs/2510.01848}, 
+  preview={greenhouse-splat.gif},
+  abstract={Simulating greenhouse environments is critical for developing and evaluating robotic systems for agriculture, yet existing approaches rely on simplistic or synthetic assets that limit simulation-to-real transfer. Recent advances in radiance field methods, such as Gaussian splatting, enable photorealistic reconstruction but have so far been restricted to individual plants or controlled laboratory conditions. In this work, we introduce GreenhouseSplat, a framework and dataset for generating photorealistic greenhouse assets directly from inexpensive RGB images. The resulting assets are integrated into a ROS-based simulation with support for camera and LiDAR rendering, enabling tasks such as localization with fiducial markers. We provide a dataset of 82 cucumber plants across multiple row configurations and demonstrate its utility for robotics evaluation. GreenhouseSplat represents the first step toward greenhouse-scale radiance-field simulation and offers a foundation for future research in agricultural robotics.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{tabaa2025fiducialmarkersplattinghighfidelity,
+  abbr={ArXiv preprint},
+  title={Fiducial Marker Splatting for High-Fidelity Robotics Simulations}, 
+  author={Diram Tabaa and Gianni Di Caro},
+  journal={Submitted},
+  month={Aug},
+  year={2025},
+  eprint={2508.17012},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  arxiv={https://arxiv.org/abs/2508.17012},
+  selected={true}, 
+  preview={fiducial.png},
+  abstract={High-fidelity 3D simulation is critical for training mobile robots, but its traditional reliance on mesh-based representations often struggle in complex environments, such as densely packed greenhouses featuring occlusions and repetitive structures. Recent neural rendering methods, like Gaussian Splatting (GS), achieve remarkable visual realism but lack flexibility to incorporate fiducial markers, which are essential for robotic localization and control. We propose a hybrid framework that combines the photorealism of GS with structured marker representations. Our core contribution is a novel algorithm for efficiently generating GS-based fiducial markers (e.g., AprilTags) within cluttered scenes. Experiments show that our approach outperforms traditional image-fitting techniques in both efficiency and pose-estimation accuracy. We further demonstrate the framework's potential in a greenhouse simulation. This agricultural setting serves as a challenging testbed, as its combination of dense foliage, similar-looking elements, and occlusions pushes the limits of perception, thereby highlighting the framework's value for real-world applications.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{Tabaa2024,
+  abbr={thesis},
+  author = "Diram Tabaa",
+  title = "{SampleLapNet: A Learnable Laplacian Approach for Task-Agnostic Point Cloud Downsampling}",
+  journal={Carnegie Mellon University (Senior Honors Thesis)},
+  year = "2024",
+  month = "9",
+  url = "https://kilthub.cmu.edu/articles/thesis/SampleLapNet_A_Learnable_Laplacian_Approach_for_Task-Agnostic_Point_Cloud_Downsampling/26932201",
+  doi = "10.1184/R1/26932201.v1",
+  preview={samplelapnet.png},
+  pdf={samplelapnet.pdf},
   selected={true},
-  inspirehep_id = {3255}
+  html={kilthub.cmu.edu/articles/thesis/SampleLapNet_A_Learnable_Laplacian_Approach_for_Task-Agnostic_Point_Cloud_Downsampling/26932201},
+  abstract={Advancements in 3D sensing technologies have led to an increased reliance on point cloud data for diverse applications ranging from autonomous navigation to environmental modeling. However, the sheer volume of data collected by these technologies poses significant challenges for real-time processing and analysis. This thesis introduces SampleLapNet, a novel neural network architecture designed to address the challenges of point cloud downsampling in a task-agnostic manner. By leveraging the Laplacian operator as a geometric measure of point importance, SampleLapNet learns to predict and preserve critical geometric features during the downsampling process, thereby ensuring minimal loss of relevant information. The architecture combines the robustness of transformer models with the efficiency of Laplacian-based importance scoring to facilitate efficient preprocessing that enhances subsequent point cloud analyses. We demonstrate the effectiveness of SampleLapNet through extensive experiments on benchmark datasets, showing significant improvements in downsampling efficiency without compromising the performance of downstream tasks such as semantic segmentation. This work not only proposes a method to reduce computational demands but also provides insights into the geometric processing of 3D data, suggesting pathways for future innovations in point cloud processing.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
+@ARTICLE{9875355,
+  abbr={IEEE TIFS},
+  author={Altinisik, Enes and Sencar, Hüsrev Taha and Tabaa, Diram},
+  journal={IEEE Transactions on Information Forensics and Security}, 
+  title={Video Source Characterization Using Encoding and Encapsulation Characteristics}, 
+  year={2022},
   volume={17},
-  pages={549--560},
-  year={1905}
-}
+  number={},
+  pages={3211-3224},
+  keywords={Encoding;Metadata;Cameras;Streaming media;Transform coding;Standards;Media;Video coding;video file containers;file metadata;model identification},
+  doi={10.1109/TIFS.2022.3204210},
+  google_scholar_id={u-x6o8ySG0sC},
+  preview={video.png},
+  abstract={We introduce the use of video coding settings for source identification and propose a new approach that incorporates encoding and encapsulation aspects of a video. To this end, a joint representation of the overall file metadata is developed and used in conjunction with a two-level hierarchical classification method. At the first level, our method groups videos into metaclasses considering several abstractions that represent high-level structural properties of file metadata. This is followed by a more nuanced classification of classes that comprise each metaclass. The method is evaluated on more than 20K videos obtained by combining four public video datasets. Tests show that a balanced accuracy of 91% is achieved in correctly identifying the class of a video among 119 video classes. This corresponds to an improvement of 6.5% over the conventional approach based on video file encapsulation characteristics. Analysis performed on a large, unlabeled video set also confirmed the aptness of our approach. To further demonstrate the versatility of encoding parameters, we consider attribution of partial video files where file metadata is not available. Our results show that, even in this limited setting that is intrinsic to forensic file recovery, an identification accuracy of 57% can be achieved through the use of a subset of encoding parameters estimated from coded video data.}
+  }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
